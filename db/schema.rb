@@ -11,17 +11,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140404184244) do
+ActiveRecord::Schema.define(version: 20140405001257) do
 
   create_table "games", force: true do |t|
     t.string "publisher"
     t.string "developer"
     t.string "genre"
     t.string "platform"
-  end
-
-  create_table "media", force: true do |t|
-    t.string "media_type"
     t.string "year"
     t.string "series"
     t.string "title"
